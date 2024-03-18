@@ -1,4 +1,4 @@
-# User Registration Node.js Application
+# User Registration Node.js Application Created By Favour Isioma Dumkwu
 
 This Node.js application validates user registration data against a JSON schema using the Ajv library.
 
