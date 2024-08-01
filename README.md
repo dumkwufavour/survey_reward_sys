@@ -199,7 +199,7 @@ Start each service and the frontend application in separate terminal windows:
 ## Technologies Used
 - **Backend:** Node.js, Express
 - **Frontend:** Next.js, React
-- **Database:** (Specify your database, e.g., MongoDB, PostgreSQL)
+- **Database:** MongoDB 
 - **Authentication:** JWT, Auth0
 - **API Gateway:** Express Gateway
 
