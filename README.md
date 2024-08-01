@@ -44,14 +44,14 @@ Users{
         PhoneNumber: string;
     }
     sign-up{
-        email: string;
-        password: string;
+      email: string;
+      password: string;
     }
 
     dashboard{
-        done_surveyLink: string;
-        active_surveyLink: string;
-        settings
+      done_surveyLink: string;
+      active_surveyLink: string;
+      settings
     }
 }
 
@@ -85,43 +85,4 @@ Users{
      - **Activate All Users (Respondents)**: Reactivate all user accounts.
      - **Activate One User (Respondent)**: Reactivate a specific user account.
 3. **Sign-out**: Log out from the system.
-
-### Additional Features
-
-1. **Authorization Middleware**:
-   - Ensure you have middleware to protect routes based on user roles (admin vs. respondent).
-
-2. **Error Handling and Validation**:
-   - Implement proper error handling and input validation to ensure data integrity and security.
-
-3. **Response Submission Endpoint**:
-   - Add an endpoint for respondents to submit their survey responses.
-
-4. **Survey Expiration and Status**:
-   - Add logic to handle survey expiration dates and status updates (active, completed, expired).
-
-5. **Activity Logging**:
-   - Log significant actions for audit purposes, such as survey creation, deletion, and user activation/deactivation.
-
-6. **User Profile Management**:
-   - Allow users to update their profile information (name, email, password).
-
-7. **Responsive Design**:
-   - Ensure the frontend is responsive and works well on various devices.
-
-8. **Accessibility**:
-   - Follow accessibility best practices to make your system usable for all users, including those with disabilities.
-
-9. **Security Enhancements**:
-   - Implement rate limiting, input sanitization, and other security measures to protect against common threats like SQL injection, XSS, and CSRF attacks.
-
-10. **Survey Analytics and Reporting**:
-    - Provide detailed analytics and reporting features for survey creators and admins.
-
-11. **Documentation and Testing**:
-    - Create thorough documentation for your API and frontend.
-    - Implement unit tests, integration tests, and end-to-end tests.
-
-
-            
 
