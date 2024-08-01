@@ -103,25 +103,25 @@ survey-system/
 Each service requires environment variables defined in a `.env` file. Below are examples for each service:
 
 ### Auth Service
-```plaintext
+```
 PORT=4000
 AUTH_SECRET=<your_auth_secret>
 ```
 
 ### User Service
-```plaintext
+```
 PORT=4001
 DATABASE_URL=<your_database_url>
 ```
 
 ### Survey Service
-```plaintext
+```
 PORT=4002
 DATABASE_URL=<your_database_url>
 ```
 
 ### API Gateway
-```plaintext
+```
 PORT=4003
 AUTH_SERVICE_URL=http://localhost:4000
 USER_SERVICE_URL=http://localhost:4001
@@ -129,7 +129,7 @@ SURVEY_SERVICE_URL=http://localhost:4002
 ```
 
 ### Frontend
-```plaintext
+```
 NEXT_PUBLIC_API_URL=http://localhost:4003
 ```
 
