@@ -17,6 +17,6 @@ app.post('/login', (req, res) => {
   res.json({ token });
 });
 
-app.listen(3001, () => {
-  console.log('Authentication Service running on port 3001');
+app.listen(process.env.port, () => {
+  console.log('Authentication Service running on port');
 });
